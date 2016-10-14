@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+}
+.slider {
+    position: relative;
+}
+.slide-button {
+    position: absolute;
+    width:57px;
+    height:57px;
+    top: 50%;
+    margin-top: -28.5px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+.slide-button:hover {
+    opacity: 1;
+}
+.slide-button.next {
+    background: url(../img/arr-right.png) no-repeat;
+    right: 5%;
+}
+.slide-button.prev {
+    background: url(../img/arr-left.png) no-repeat;
+    left: 5%;
+}
+.slider-cont {
+    width:100%;
+    position: relative;
+}
+.slider-cont img {
+    width:100%;
+    display:none;
+}
+.slider-cont img.active {
+    display: block;
+}
+.slider2 {
+    margin-top: 50px;
+}
