@@ -21,7 +21,7 @@
                     }
                 },
                 show: function(active) {
-                    cont.find('img').eq(active).addClass('active').siblings().removeClass('active');
+                    cont.find('.slider-item').eq(active).addClass('active').siblings().removeClass('active');
                 },
                 next: function() {
                     if(active == itemLen) {
@@ -66,6 +66,5 @@ $('.slider').slider({
     speed: 2000
 });
 $('.slider2').slider({
-    auto: true,
-    speed: 2000
+    auto: false
 });

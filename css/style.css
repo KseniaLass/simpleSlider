@@ -28,13 +28,16 @@ body {
     width:100%;
     position: relative;
 }
-.slider-cont img {
+.slider-cont .slider-item {
     width:100%;
     display:none;
 }
-.slider-cont img.active {
+.slider-cont .slider-item.active {
     display: block;
 }
 .slider2 {
     margin-top: 50px;
+}
+h2 {
+    text-align: center;
 }
